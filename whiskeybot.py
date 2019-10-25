@@ -72,4 +72,8 @@ def check(urls):
 
 
 if __name__ == '__main__':
-    check(URLS)
+    try:
+        check(URLS)
+    except Exception:
+        mailer = NotifyMeMailer.create()
+        mailer.send('WHISKEY ERROR', 'Your bot has crashed, pls fix')
