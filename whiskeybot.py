@@ -21,7 +21,7 @@ URLS = {
         'url': 'https://www.blackwellswines.com/search?q=Redbreast',
         'type': 'xpath',
         'xpath': '//div[@class="product_row"]',
-        'expected': 6,
+        'expected': 7,
     },
     'K&L - New Product Page': {
         'url': 'https://www.klwines.com/Products?&filters=sv2_NewProductFeedYN$eq$1$True$ProductFeed$!dflt-stock-all!206&limit=50&offset=0&orderBy=LotGeneratedFromPOYN%20asc,NewProductFeedDate%20desc&searchText=',
