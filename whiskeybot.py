@@ -14,7 +14,7 @@ URLS = {
     'K&L - Redbreast Product Search': {
         'url': 'https://www.klwines.com/Products?searchText=redbreast',
         'type': 'xpath',
-        'xpath': '//div[contains(@class, "result-desc")]',
+        'xpath': '//div[contains(@class, "tf-product-description")]',
         'expected': 6,
     },
     'Blackwell - Redbreast Product Search': {
